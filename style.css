@@ -1,22 +1,165 @@
-#main_title{
-text-align: center;
-background-color: #333;
-color: #fff;
-letter-spacing: 2px;
-font-weight: 500;
+.home{
+    background-image: url(background.jpg);
+    height: 1050px;
+    background-size: cover;
+
+}
+.home h1{
+    font-size: 50px;
+    color:rgb(95, 169, 194);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top:15%;
+}
+.home p{
+    font-size: 40px;
+    color: rgb(43, 42, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5%;
+    
+}
+.about h1{
+font-size: 50px;
+color:rgb(95, 169, 194);
 }
 
 
-.box1 h2{
-float:left ;
+.about-image{
+    height: 800px;
+    width: 500x;
 }
-.box1 button{
-    float: right;
+.about-image img{
+    height: 700px;
+    width: 900PX;
+    margin-top:50px;
+    margin-left: 80px;
+    border-radius: 25px;
 }
-.container{
-    margin-top:50px ;
+.about-content{
+    width: 40%;
+    font-size: 40px;
+    margin-right: px;
 }
-h6{
+.about-container{
+    display: flex;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0);
+    justify-content: center;
+background-color: rgb(228, 223, 223);
+}
+.card-content h3{
+    font-size: 30px;
+    color:rgb(95, 169, 194);
+    margin-left: 110px;
+   
+
+}
+.card-content1 {
+    font-size: 30px;
+    width:35%;
+    height: 555px;
+    margin-left:50px;
+    margin-top:100px;
+    background: white;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0);
+}
+.card-content2 {
+    font-size: 30px;
+    width:35%;
+    height: 555px;
+    margin-top:100px;
+    background: white;
+    margin-left:100px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0);
+}
+.card-content3 {
+    font-size: 30px;
+    width:35%;
+    height: 555px;
+    margin-left:100px;
+    background: white;
+    margin-top:100px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0);
+}
+.card-content4 {
+    font-size: 30px;
+    width:35%;
+    height:555px;
+    margin-left:100px;
+    background: rgb(255, 255, 255);
+    margin-right: 50px;
+    margin-top:100px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0);
+}
+.card-container{
+    display: flex;
+   width: 100%;
+   height: 800px;
+   justify-content: space-around;
+   background-color:rgb(245, 233, 210);
+
+
+    
+}
+.services h1{
+    font-size: 45px;
     text-align: center;
-    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(95, 169, 194);
+}
+.contact{
+    height: 1000px;
+ justify-content: center;  
+
+}
+.contact h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(95, 169, 194);
+    background: white;
+}
+.contact-container{
+    display: flex;
+    justify-content: center;
+
+}
+.img{
+    border-radius: 30px;
+    width: 900px;
+    height: 900px;
+    margin-right: 600px; 
+    box-shadow: 0px 0px 5px 0 rgba(0, 0, 0.5, 1.0); 
+}
+.form{
+    height: 500px;
+    width: 900px;
+   
+    margin-top: 100px;
+    margin-right: 100px;
+    margin: -16px 8px -16px;
+    text-align: center;
+}
+.footer{
+    height: 300px;
+    background: rgb(126, 124, 124);
+}
+.footer:hover{
+   background  : rgb(16, 16, 16);
+}
+.footer button{
+    background:white;
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 150px;
+}
+.footer button:hover{
+    background:rgb(226, 223, 223);
+   
 }
